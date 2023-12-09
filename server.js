@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 require('dotenv').config()
-const port = process.env.APP_PORT || 5000
+const port = process.env.APP_PORT || 8080
 
 const userRouter = require('./api_src/users/user.router');
 
